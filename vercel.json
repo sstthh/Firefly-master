@@ -3,6 +3,7 @@
   "outputDirectory": "dist",
   "installCommand": "pnpm install",
   "framework": "astro",
+  "cleanUrls": true,
   "headers": [
     {
       "source": "/(.*)",
@@ -35,5 +36,11 @@
       ]
     }
   ],
-  "cleanUrls": true
+  "redirects": [
+    {
+      "source": "/archives/:slug",
+      "destination": "/posts/:slug",
+      "permanent": true
+    }
+  ]
 }

@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
   name: "Starry Sea",
 
   // 个人签名
-  bio: "",
+  bio: "创造属于你我的「奇迹」",
 
   // 链接配置
   // 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
@@ -30,7 +30,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: "Email",
       icon: "fa7-solid:envelope",
-      url: "starrysea@2star.top",
+      url: "mailto:starrysea@2star.top",
       showName: false,
     },
     {

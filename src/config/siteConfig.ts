@@ -6,7 +6,7 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
   // 站点标题
-  title: "致星极客",
+  title: "致星极客 | To STAR",
 
   // 站点副标题
   subtitle: "",

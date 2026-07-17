@@ -52,6 +52,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
       "https://static.kivo.wiki/images/gallery/1.%E4%B8%BB%E7%BA%BF%E5%89%A7%E6%83%85CG/%E6%9C%80%E7%BB%88%E7%AF%87/BG_CS_PV4_074_3.jpg",
       "https://static.kivo.wiki/images/gallery/1.%E4%B8%BB%E7%BA%BF%E5%89%A7%E6%83%85CG/%E6%9C%80%E7%BB%88%E7%AF%87/BG_CS_PV4_075.jpg",
       "https://static.kivo.wiki/images/gallery/1.%E4%B8%BB%E7%BA%BF%E5%89%A7%E6%83%85CG/%E6%9C%80%E7%BB%88%E7%AF%87/BG_CS_S1Final_72.jpg",
+      "https://static.kivo.wiki/images/gallery/1.%E4%B8%BB%E7%BA%BF%E5%89%A7%E6%83%85CG/%E6%9C%80%E7%BB%88%E7%AF%87/BG_CS_PV4_047.jpg",
     ],
     // 移动背景图片（支持单张或多张随机）
     // mobile: "assets/images/MobileWallpaper/m1.avif",
@@ -65,6 +66,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
       "https://static.kivo.wiki/images/gallery/1.%E4%B8%BB%E7%BA%BF%E5%89%A7%E6%83%85CG/%E6%9C%80%E7%BB%88%E7%AF%87/BG_CS_PV4_074_3.jpg",
       "https://static.kivo.wiki/images/gallery/1.%E4%B8%BB%E7%BA%BF%E5%89%A7%E6%83%85CG/%E6%9C%80%E7%BB%88%E7%AF%87/BG_CS_PV4_075.jpg",
       "https://static.kivo.wiki/images/gallery/1.%E4%B8%BB%E7%BA%BF%E5%89%A7%E6%83%85CG/%E6%9C%80%E7%BB%88%E7%AF%87/BG_CS_S1Final_72.jpg",
+      "https://static.kivo.wiki/images/gallery/1.%E4%B8%BB%E7%BA%BF%E5%89%A7%E6%83%85CG/%E6%9C%80%E7%BB%88%E7%AF%87/BG_CS_PV4_047.jpg",
     ],
     // 背景视频播放地址
     // 支持单个视频路径（字符串）或多个视频循环（数组）

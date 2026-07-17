@@ -129,7 +129,7 @@ export const siteConfig: SiteConfig = {
     // 是否允许用户切换布局
     allowSwitch: true,
     // 文章简介显示行数，设为 0 则不截断
-    descriptionLines: 2,
+    descriptionLines: 3,
     // 文章卡片底部统计和发布日期是否显示图标
     showStatsIcons: true,
     // 标签显示位置
@@ -227,7 +227,7 @@ export const siteConfig: SiteConfig = {
   // 分页配置
   pagination: {
     // 每页显示的文章数量
-    postsPerPage: 10,
+    postsPerPage: 5,
   },
 
   // 图像优化及响应式配置

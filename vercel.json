@@ -41,6 +41,11 @@
       "source": "/archives/:slug",
       "destination": "/posts/:slug",
       "permanent": true
+    },
+    {
+      "source": "/archives/:slug/",
+      "destination": "/posts/:slug",
+      "permanent": true
     }
   ]
 }

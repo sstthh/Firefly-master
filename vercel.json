@@ -48,12 +48,12 @@
       "permanent": true
     },
     {
-      "source": "/monents/",
+      "source": "/moments/",
       "destination": "/dynamic",
       "permanent": true
     },
     {
-      "source": "/monents",
+      "source": "/moments",
       "destination": "/dynamic",
       "permanent": true
     },

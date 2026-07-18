@@ -46,6 +46,26 @@
       "source": "/archives/:slug/",
       "destination": "/posts/:slug",
       "permanent": true
+    },
+    {
+      "source": "/monents/",
+      "destination": "/dynamic",
+      "permanent": true
+    },
+    {
+      "source": "/monents",
+      "destination": "/dynamic",
+      "permanent": true
+    },
+    {
+      "source": "/links",
+      "destination": "/friends",
+      "permanent": true
+    },
+    {
+      "source": "/links/",
+      "destination": "/friends",
+      "permanent": true
     }
   ]
 }

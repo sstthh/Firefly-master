@@ -9,7 +9,7 @@ export const profileConfig: ProfileConfig = {
   avatar: "assets/images/starrysea.webp",
 
   // 名字
-  name: "Starry Sea",
+  name: "StarrySea",
 
   // 个人签名
   bio: "创造属于你我的「奇迹」",

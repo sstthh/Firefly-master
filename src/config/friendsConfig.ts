@@ -4,20 +4,20 @@ import type { FriendLink, FriendsPageConfig } from "../types/friendsConfig";
 
 // 友链页面配置
 export const friendsPageConfig: FriendsPageConfig = {
-	// 页面标题，如果留空则使用 i18n 中的翻译
-	title: "",
+  // 页面标题，如果留空则使用 i18n 中的翻译
+  title: "",
 
-	// 页面描述文本，如果留空则使用 i18n 中的翻译
-	description: "",
+  // 页面描述文本，如果留空则使用 i18n 中的翻译
+  description: "",
 
-	// 是否显示底部自定义内容（friends.mdx 中的内容）
-	showCustomContent: true,
+  // 是否显示底部自定义内容（friends.mdx 中的内容）
+  showCustomContent: true,
 
-	// 是否显示评论区，需要先在commentConfig.ts启用评论系统
-	showComment: true,
+  // 是否显示评论区，需要先在commentConfig.ts启用评论系统
+  showComment: true,
 
-	// 是否开启随机排序配置，如果开启，就会忽略权重，构建时进行一次随机排序
-	randomizeSort: false,
+  // 是否开启随机排序配置，如果开启，就会忽略权重，构建时进行一次随机排序
+  randomizeSort: false,
 };
 
 // 友链配置
@@ -77,6 +77,15 @@ export const friendsConfig: FriendLink[] = [
     enabled: true,
   },
   {
+    title: "MingBlog（Ming 博客）",
+    imgurl: "https://mingblog.site/favicon.svg",
+    desc: "记录日常生活、城市影像、旅行与观察，以及认真看过、读过和听过的作品。",
+    siteurl: "https://mingblog.site/",
+    tags: ["Blog"],
+    weight: 10,
+    enabled: true,
+  },
+  {
     title: "基沃托斯古书馆 ~蔚蓝档案与百科的奇迹~",
     imgurl: "https://kivo.wiki/favicon.png",
     desc: "有趣的《蔚蓝档案》资料站，差分立绘鉴赏、可动角色CG、角色速查、资讯概况等的一站式wiki服务。",
@@ -89,11 +98,11 @@ export const friendsConfig: FriendLink[] = [
 
 // 获取启用的友链并进行排序
 export const getEnabledFriends = (): FriendLink[] => {
-	const friends = friendsConfig.filter((friend) => friend.enabled);
+  const friends = friendsConfig.filter((friend) => friend.enabled);
 
-	if (friendsPageConfig.randomizeSort) {
-		return friends.sort(() => Math.random() - 0.5);
-	}
+  if (friendsPageConfig.randomizeSort) {
+    return friends.sort(() => Math.random() - 0.5);
+  }
 
-	return friends.sort((a, b) => b.weight - a.weight);
+  return friends.sort((a, b) => b.weight - a.weight);
 };
